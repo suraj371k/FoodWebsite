@@ -6,34 +6,35 @@ const PlaceOrder = () => {
      const {getTotalCartAmount} = useContext(Context)
 
     return (
-        <form className='flex items-center  justify-between gap-[50px] mt-24'>
-            <div className='w-full'>
+        <form className='flex  flex-col  justify-center  mt-24'>
+
                 <p className='text-2xl font-bold'>Delivery Information</p>
-                <div className='text-xl font-semibold mb-12'>
-                    <input className='mb-4 w-[60%] border-2 border-black px-4 py-2 
+
+                    <input className='mb-4 w-[30%] border-2 border-black px-4 py-2 
                 rounded-xl outline-[tomato]' type="text" placeholder="First Name" />
-                    <input className='mb-4 w-[60%] border-2 border-black px-4 py-2 
+
+                    <input className='mb-4 w-[30%] border-2 border-black px-4 py-2 
                 rounded-xl outline-[tomato]' type="text" placeholder="Last Name" />
-                </div>
-                <div className='text-xl font-semibold mb-12'>
-                <input className='mb-4 w-[60%] border-2 border-black px-4 py-2 
+             
+                <input className='mb-4 w-[30%] border-2 border-black px-4 py-2 
                 rounded-xl outline-[tomato]' type="email" placeholder="Enter your email" />
-                <input className='mb-4 w-[60%] border-2 border-black px-4 py-2 
+                <input className='mb-4 w-[30%] border-2 border-black px-4 py-2 
                 rounded-xl outline-[tomato]'  type="text" placeholder="Street" />
-                </div>
-                <div className='text-xl font-semibold mb-12'>
-                    <input className='mb-4 w-[60%] border-2 border-black px-4 py-2 
+             
+                    <input className='mb-4 w-[30%] border-2 border-black px-4 py-2 
                 rounded-xl outline-[tomato]'  type="text" placeholder="City" />
-                    <input className='mb-4 w-[60%] border-2 border-black px-4 py-2 
+
+                    <input className='mb-4 w-[30%] border-2 border-black px-4 py-2 
                 rounded-xl outline-[tomato]'  type="text" placeholder="State" />
-                </div>
+            
                 <div className='text-xl font-semibold mb-12'>
-                    <input className='mb-4 w-[60%] border-2 border-black px-4 py-2 
-                rounded-xl outline-[tomato]'  type="text" placeholder="Zip Code" />
-                    <input className='mb-4 w-[60%] border-2 border-black px-4 py-2 
-                rounded-xl outline-[tomato]'  type="text" placeholder="Country" />
-                </div>
-                <input className='mb-4 w-[60%] border-2 border-black px-4 py-2 
+                    <input className='mb-4 w-[30%] border-2 border-black px-4 py-2 
+                rounded-xl outline-[tomato]'  type="text" placeholder="Zip Code" /><br></br>
+
+                    <input className='mb-4 w-[30%] border-2 border-black px-4 py-2 
+                rounded-xl outline-[tomato]'  type="text" placeholder="Country" /><br/>
+            
+                <input className='mb-4 w-[30%] border-2 border-black px-4 py-2 
                 rounded-xl outline-[tomato]'  type="text" placeholder="Phone" />
             </div>
             <div className="mt-[80px] flex justify-between gap-4 w-[30%]">

@@ -6,7 +6,8 @@ const Header = () =>{
          style={{backgroundImage: `url(${assets.header_img})`}}>
             <div className='flex flex-col items-start gap-[1.5vw]
             animate-fadeIn duration-300 bottom-[10%] left-[6vw] absolute'>
-            <h2 className='text-[5rem] text-white font-semibold'>Order your food here</h2>
+            <h2 className='text-[5rem] text-white font-semibold lg:w-full
+            md:w-[50%] md:<br/> sm:w-[25%]'>Order your food here</h2>
 
             <p className='w-[50%] text-white text-xl'>Choose from the diverse menu featuring a delectable array of dishes crafted with
                 finest ingredient to satify your cravings and elevate your dining experience,

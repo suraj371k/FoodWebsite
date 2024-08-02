@@ -12,7 +12,7 @@ const Menu = ({category , setCategory}) => {
                 one delicious meal at a time.
          </p>
          <div className="flex justify-between items-center gap-[30px] text-center my-[20px] 
-         mx-auto overflow-y-auto mr-40 scrollbar-none">
+         mx-auto overflow-y-auto mr-40 scrollbar-none flex-wrap">
           {
             menu_list.map((item , index) =>{
               return(
